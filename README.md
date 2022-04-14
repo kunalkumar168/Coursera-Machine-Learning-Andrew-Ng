@@ -1,6 +1,4 @@
-# Coursera-Machine-Learning-Andrew-Ng
-
-# Coursera-Machine-Learning-Assignments-Personal-Solutions
+# Coursera-Machine-Learning-Andrew-Ng-Assignments-Solutions
 *Exercises are done on Matlab R2017a*
 
 This repository consists my personal solutions to the programming assignments of Andrew Ng's Machine Learning course on Coursera.
