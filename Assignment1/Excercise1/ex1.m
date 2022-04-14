@@ -55,8 +55,8 @@ X = [ones(m, 1), data(:,1)]; % Add a column of ones to x
 theta = zeros(2, 1); % initialize fitting parameters
 
 % Some gradient descent settings
-iterations = 1500;
-alpha = 0.01;
+iterations = 1800;
+alpha = 0.02;
 
 fprintf('\nTesting the cost function ...\n')
 % compute and display initial cost
@@ -126,7 +126,7 @@ figure;
 surf(theta0_vals, theta1_vals, J_vals)
 xlabel('\theta_0'); ylabel('\theta_1');
 
-% Contour plot
+% Contour plot - theta0_vals Vs theta1_vals
 figure;
 % Plot J_vals as 15 contours spaced logarithmically between 0.01 and 100
 contour(theta0_vals, theta1_vals, J_vals, logspace(-2, 3, 20))
